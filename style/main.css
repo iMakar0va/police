@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+header {
+  background: #0c169c;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+  padding: 5px 0;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 3px solid #0c169c;
+  box-shadow: 0px 4px 15px rgb(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px;
+
+  border: 1px solid #d7d7d7;
+  background-color: #f4f4f4;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+input:focus {
+  border-color: #0c169c;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.15);
+  outline: none;
+  background-color: #fff;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border: none;
+  border-radius: 12px;
+  background-color: #0c169c;
+  padding: 12px;
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: backgroound-color 0.3s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #070e6b;
+}
+#link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+#link a {
+  color: #0c169c;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+#link a:hover {
+  color: #070e6b;
+}
+.error {
+  border: 2px solid red;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 15px;
+  border: 2px solid #0c169c;
+  box-shadow: 0px 0px 3px rgb(0, 0, 0, 5);
+  padding: 10px;
+}
+.card_id {
+  background-color: rgba(128, 128, 128, 0.455);
+  padding: 5px 15px;
+  width: fit-content;
+  border-radius: 10px;
+  color: grey;
+}
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #d7d7d7;
+  font-size: 14px;
+  color: #333;
+}
